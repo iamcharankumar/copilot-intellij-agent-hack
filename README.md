@@ -1,5 +1,11 @@
 # Turn IntelliJ Into a Context-Aware AI Powerhouse with Claude and MCP
 
+## Author
+
+- **Name:** Charankumar H
+- **LinkedIn:** [Charankumar H](https://www.linkedin.com/in/charankumar-h/)
+- **GitHub:** [@iamcharankumar](https://github.com/iamcharankumar)
+
 Boost your dev productivity with AI agents powered by Claude + Playwright/Selenium + MCP in IntelliJ like a boss. No,
 you won't require Claude desktop this time. 😉
 
@@ -83,10 +89,15 @@ and [Angie Jones' Selenium MCP for Claude Desktop](https://github.com/angiejones
 
 1. The agent understands login state — without you telling it.
    That’s real contextual awareness. No more explaining whether you're logged in or not — it just knows, and adapts.
-2. You can ask for Playwright + TestNG (Java 8, 17, etc.)
-   It generates production-ready automation scripts, not just toy examples.
-   You’ll be committing those outputs straight to your feature branch — seriously, check the demo video.
+2. You can ask for Playwright + TestNG (Java 8, 17, etc.) It generates production-ready automation scripts, not just toy examples. You’ll be committing those outputs straight to your feature branch — seriously, check the demo video.
+3. AI Agent prompt used in the demo is below
+```Plain Text
+Use playwright MCP and Execute the below steps
 
+Step 1: Open chrome browser and launch https://www.saucedemo.com
+Step 2: login with standard_user and secret_sauce
+Step 3: Quit the browser
+```
 https://github.com/user-attachments/assets/75a1eb5d-8dbe-4d20-a7f7-2705f6631086
 
 ## EXTRAS
@@ -94,5 +105,9 @@ https://github.com/user-attachments/assets/75a1eb5d-8dbe-4d20-a7f7-2705f6631086
 - Make sure you keep track of your Usage Quota of the GitHub Copilot.
 - Click the GitHub Copilot icon in the bottom right corner of IntelliJ to see your usage stats.
 
+<img width="1920" height="1080" alt="Quota_Usage_1" src="https://github.com/user-attachments/assets/6e8c6cd3-8d37-48e8-bc83-6f3cd74604a7" />
+
 - Click on the "View Quota Usage" menu to view your current usage and limits.
 - For free version, it is limited. See the image below.
+
+<img width="1920" height="1080" alt="Quota_Usage_2" src="https://github.com/user-attachments/assets/1cd7b79a-16fc-4949-a4a2-c24ac96c2fed" />
