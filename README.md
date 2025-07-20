@@ -111,3 +111,8 @@ https://github.com/user-attachments/assets/75a1eb5d-8dbe-4d20-a7f7-2705f6631086
 - For free version, it is limited. See the image below.
 
 <img width="1920" height="1080" alt="Quota_Usage_2" src="https://github.com/user-attachments/assets/1cd7b79a-16fc-4949-a4a2-c24ac96c2fed" />
+
+## Important Note on MCP Tool Prompts
+> When using Playwright MCP, Selenium MCP, or any MCP integration with the GitHub Copilot IntelliJ Plugin, you will still encounter the “Do you want to allow...” security prompts during Agent Preview. These prompts are a core security feature of the Copilot plugin and cannot be disabled via configuration — including autoApprove or toolPermissions in your mcp.json. For Playwright MCP tools specifically, these confirmation dialogs are intentional and enforced by design, to ensure secure handling of external tool access (e.g., browser control).
+> ⚠️ Yes — it's not ideal for smooth workflows.
+> ✅ But it's functional, and serves as a backup plan for Claude Desktop agent executions — not a replacement.
