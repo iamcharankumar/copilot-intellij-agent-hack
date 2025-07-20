@@ -78,11 +78,21 @@ and [Angie Jones' Selenium MCP for Claude Desktop](https://github.com/angiejones
 4. Now open your IntelliJ and enter the example prompt to see the MCP + LLM integration.
 
 <img width="1920" height="1080" alt="MCP_Server_Setup" src="https://github.com/user-attachments/assets/150e4dbc-42ea-410a-af16-6ee9a0d3196b" />
-   
+
 ## What will blow your mind?
 
-1. The agent analyses login states on its own. That’s the contextual decision-making in action that will help you. leverage your mundane instruction clarifications everytime.
-2. Ask it for Playwright + TestNG Java 8,17,etc.. code → It generates production-ready test scripts — literally ready to commit to your feature branch. See in the demo video.
+1. The agent understands login state — without you telling it.
+   That’s real contextual awareness. No more explaining whether you're logged in or not — it just knows, and adapts.
+2. You can ask for Playwright + TestNG (Java 8, 17, etc.)
+   It generates production-ready automation scripts, not just toy examples.
+   You’ll be committing those outputs straight to your feature branch — seriously, check the demo video.
 
 https://github.com/user-attachments/assets/75a1eb5d-8dbe-4d20-a7f7-2705f6631086
 
+## EXTRAS
+
+- Make sure you keep track of your Usage Quota of the GitHub Copilot.
+- Click the GitHub Copilot icon in the bottom right corner of IntelliJ to see your usage stats.
+
+- Click on the "View Quota Usage" menu to view your current usage and limits.
+- For free version, it is limited. See the image below.
