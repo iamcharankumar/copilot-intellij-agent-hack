@@ -1,17 +1,14 @@
-# Turn IntelliJ Into a Context-Aware AI Powerhouse with Claude and MCP
-
-This repo shows how to integrate GitHub Copilot's IntelliJ plugin with Claude AI Agents using Playwright/Selenium MCP servers. It enables context-driven automation directly inside IntelliJ — where your AI agent understands state (like login), generates real test flows (Java 8/17 + TestNG), and executes actions in a fully wired environment. Perfect for devs and QAs who want to go beyond code suggestions and build smart, interactive workflows — without relying on Claude Desktop.
-
-## Author
+# Author
 
 - **Name:** Charankumar H
 - **LinkedIn:** [Charankumar H](https://www.linkedin.com/in/charankumar-h/)
 - **GitHub:** [@iamcharankumar](https://github.com/iamcharankumar)
+  
+# Turn IntelliJ Into a Context-Aware AI Powerhouse with Claude and MCP
 
-Boost your dev productivity with AI agents powered by Claude + Playwright/Selenium + MCP in IntelliJ like a boss. No,
-you won't require Claude desktop this time. 😉
+This repo shows how to integrate GitHub Copilot's IntelliJ plugin with Claude AI Agents using Playwright/Selenium MCP servers. It enables context-driven automation directly inside IntelliJ — where your AI agent understands state (like login), generates real test flows (Java 8/17 + TestNG), and executes actions in a fully wired environment. Perfect for devs and QAs who want to go beyond code suggestions and build smart, interactive workflows. No, you won't require Claude desktop this time. 😉
 
-Simple Idea
+## Simple Idea
 
 > The LLMs [Large Language Models] has no decision-making capability.
 > So think MCP as your middleware, which use an LLM and talk to you application.
