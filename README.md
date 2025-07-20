@@ -91,7 +91,7 @@ and [Angie Jones' Selenium MCP for Claude Desktop](https://github.com/angiejones
    That’s real contextual awareness. No more explaining whether you're logged in or not — it just knows, and adapts.
 2. You can ask for Playwright + TestNG (Java 8, 17, etc.) It generates production-ready automation scripts, not just toy
    examples. You’ll be committing those outputs straight to your feature branch — seriously, check the demo video.
-3. AI Agent prompt used in the demo is below
+3. Here’s the exact natural language prompt used in the demo with Claude Agent + Playwright MCP:
 
 ```Plain Text
 Use playwright MCP and Execute the below steps
