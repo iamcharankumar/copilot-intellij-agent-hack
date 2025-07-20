@@ -124,3 +124,7 @@ https://github.com/user-attachments/assets/75a1eb5d-8dbe-4d20-a7f7-2705f6631086
 > to ensure secure handling of external tool access (e.g., browser control).
 > ⚠️ Yes — it's not ideal for smooth workflows.
 > ✅ But it's functional, and serves as a backup plan for Claude Desktop agent executions — not a replacement.
+ 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=iamcharankumar/copilot-intellij-agent-hack&type=Date)](https://www.star-history.com/#iamcharankumar/copilot-intellij-agent-hack&Date)
