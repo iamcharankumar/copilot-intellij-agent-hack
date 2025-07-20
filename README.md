@@ -39,7 +39,7 @@ Ensure you have the following installed:
 
 1. After restart, go to File → Settings → Copilot
 2. Click **Sign in to GitHub**
-3. Follow the OAuth flow in the browser and authorize IntelliJ with your GitHub account account.
+3. Follow the OAuth flow in the browser and authorize IntelliJ with your GitHub account.
 4. Once authenticated, Copilot will be active in your IntelliJ editor, suggesting code completions and snippets as you
    type.
 
@@ -89,8 +89,10 @@ and [Angie Jones' Selenium MCP for Claude Desktop](https://github.com/angiejones
 
 1. The agent understands login state — without you telling it.
    That’s real contextual awareness. No more explaining whether you're logged in or not — it just knows, and adapts.
-2. You can ask for Playwright + TestNG (Java 8, 17, etc.) It generates production-ready automation scripts, not just toy examples. You’ll be committing those outputs straight to your feature branch — seriously, check the demo video.
+2. You can ask for Playwright + TestNG (Java 8, 17, etc.) It generates production-ready automation scripts, not just toy
+   examples. You’ll be committing those outputs straight to your feature branch — seriously, check the demo video.
 3. AI Agent prompt used in the demo is below
+
 ```Plain Text
 Use playwright MCP and Execute the below steps
 
@@ -98,6 +100,7 @@ Step 1: Open chrome browser and launch https://www.saucedemo.com
 Step 2: login with standard_user and secret_sauce
 Step 3: Quit the browser
 ```
+
 https://github.com/user-attachments/assets/75a1eb5d-8dbe-4d20-a7f7-2705f6631086
 
 ## EXTRAS
@@ -113,6 +116,11 @@ https://github.com/user-attachments/assets/75a1eb5d-8dbe-4d20-a7f7-2705f6631086
 <img width="1920" height="1080" alt="Quota_Usage_2" src="https://github.com/user-attachments/assets/1cd7b79a-16fc-4949-a4a2-c24ac96c2fed" />
 
 ## Important Note on MCP Tool Prompts
-> When using Playwright MCP, Selenium MCP, or any MCP integration with the GitHub Copilot IntelliJ Plugin, you will still encounter the “Do you want to allow...” security prompts during Agent Preview. These prompts are a core security feature of the Copilot plugin and cannot be disabled via configuration — including autoApprove or toolPermissions in your mcp.json. For Playwright MCP tools specifically, these confirmation dialogs are intentional and enforced by design, to ensure secure handling of external tool access (e.g., browser control).
+
+> When using Playwright MCP, Selenium MCP, or any MCP integration with the GitHub Copilot IntelliJ Plugin, you will
+> still encounter the “Do you want to allow...” security prompts during Agent Preview. These prompts are a core security
+> feature of the Copilot plugin and cannot be disabled via configuration — including autoApprove or toolPermissions in
+> your mcp.json. For Playwright MCP tools specifically, these confirmation dialogs are intentional and enforced by design,
+> to ensure secure handling of external tool access (e.g., browser control).
 > ⚠️ Yes — it's not ideal for smooth workflows.
 > ✅ But it's functional, and serves as a backup plan for Claude Desktop agent executions — not a replacement.
